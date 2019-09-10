@@ -68,11 +68,6 @@ var KeyCodes;
 })(KeyCodes || (KeyCodes = {}));
 console.log('KeyCodes[13] =', KeyCodes[13]); // Enter
 console.log('KeyCodes.Enter =', KeyCodes.Enter); // 13
-// Redux Actions
-var actionTypes = {
-    GET_USER: 'GET_USER',
-    SET_USER: 'SET_USER'
-};
 var actions = {
     GET_USER: function (state, action) { return (__assign({}, state)); },
     SET_USER: function (state, action) { return (__assign({}, state)); }

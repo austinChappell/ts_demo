@@ -314,12 +314,7 @@ console.log('KeyCodes.Enter =', KeyCodes.Enter); // 13
 
 
 // Redux Actions
-const actionTypes = {
-  GET_USER: 'GET_USER',
-  SET_USER: 'SET_USER',
-}
-
-type ActionType = keyof typeof actionTypes;
+type ActionType = 'GET_USER' | 'SET_USER';
 interface State { }
 interface ActionPayload { }
 interface Action {
